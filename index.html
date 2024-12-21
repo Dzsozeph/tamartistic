@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tam Artistic</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+	
+<body>
+	  <div class="background-container">
+        <div class="fixed-image"></div>
+    </div>
+	<div class="logo_container"></div>
+    <header>
+        
+		<nav>
+
+			<div class="mobile-menu-icon" id="toggle-button">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+				
+			</div>	
+       
+		<ul>
+			<li><a href="#">Our mission</a></li>
+			<li><a href="#">Products</a></li>
+			<li><a href="#">Contact</a></li>
+			<li><a href="#" class="signup" id="signup-link" style="font-style: normal; font-weight: bold; animation: pulse 2s infinite; background-color: rgba(201,102,15,1.00); border-radius: 10px;">Sign up</a></li>
+		</ul>
+		</nav>
+		
+		<div class="login-container" id="login-container">
+        <h2><em><strong>Be a part of our miracle</strong></em>, let's <span style="color: darkred;">Join us</span></h2>
+        <form>
+			<h2>Privacy Policy</h2>
+			<p2>Welcome to our website. We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about our policy or our practices with regards to your personal information, please contact us at: <span style="color: rgba(216,221,6,1.00); font-size: 14px; font-weight: 700;">dzsozeph93@gmail.com</span></p2>
+            <label for="username">Your beautiful name:</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="password">Your highly secured password:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <button type="submit">Sign up</button>
+        </form>
+    </div>
+		<div class="quote_box">
+	<!--<h1>Your Ideas, Our Expertise</h1></div>--> 
+			</div>
+		
+	 <a href="#" id="homeButton" class="home_button" onclick="reloadPage()">
+    <i class="fas fa-home"></i>
+</a>
+		
+</header>
+<section>
+<div class="scroll_button_container">
+        <button onclick="scrollToContent()">
+            <i class="fas fa-chevron-down"></i>
+        </button>
+	</div>
+	
+	<div class="button_text_box">
+	<h1>Discover our magic behind the walls</h1></div>
+	
+
+<div class="png-box"></div>	
+<div class="png-box2"></div>
+	<div class="circle-box"></div>
+	<div class="circle-box2"></div>
+	<!--<div class="rotated-box"></div>	
+	<div class="rotated-box2"></div>-->	
+<div class="content_welcome">
+	<h1 style="font-weight: 500; font-size: 55px; color: rgba(204,105,7,1.00); text-shadow: 4px 4px 4px grey; ">Welcome to our website</h1>
+	<p style="animation: shake 2s infinite; text-align: center; font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', 'monospace'; font-size: 20px;">Where creativity meets technology</p>
+	<p> We specialize in crafting visually stunning graphic designs and developing seamless, user and completely mobile friendly responsive websites that elevate your brand and drive business growth. We combines innovative design with cutting-edge development to deliver bespoke solutions tailored to your unique needs. Partner with us to transform your vision into a captivating digital experience that stands out in a crowded market.
+	Welcome to our website. We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about our policy or our practices with regards to your personal information, please contact us at:
+	Welcome to our website. We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about our policy or our practices with regards to your personal information, please contact us at:
+	Welcome to our website. We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about our policy or our practices with regards to your personal information, please contact us at:
+	Welcome to our website. We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about our policy or our practices with regards to your personal information, please contact us at:
+	Welcome to our website. We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about our policy or our practices with regards to your personal information, please contact us
+		
+		
+Welcome to our website. We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about our policy or our practices with regards to your personal information, please contact us at:Welcome to our website. We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about our policy or our practices with regards to your personal information, please contact us at:Welcome to our website. We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about our policy or our practices with regards to your personal information, please contact us at: at:
+	</p>
+
+   	     <!-- Additional content here -->
+
+	</div>
+</section>
+	
+<script>
+	
+	
+function scrollToContent() {
+            document.querySelector('.content1').scrollIntoView({ behavior: 'smooth' });
+        }
+	
+	
+	    document.getElementById('signup-link').addEventListener('click', function(event) {
+            event.preventDefault();
+            document.getElementById('login-container').style.display = 'block';
+        });
+	
+function reloadPage() {
+    location.reload();
+  }
+	
+document.addEventListener('DOMContentLoaded', function() {
+    const toggleButton = document.querySelector('.mobile-menu-icon');
+    const navbarLinks = document.querySelector('nav ul');
+
+    toggleButton.addEventListener('click', () => {
+        navbarLinks.classList.toggle('active');
+    });
+});
+	
+
+</script>
+</body>
+</html>
+
